@@ -4,7 +4,7 @@
     --crl-gray-1: rgb(192, 192, 192);
     --crl-gray-2: rgb(248, 248, 248);
     --color-white: rgb(255, 255, 255);
-    --color-orange-1: rgb(255, 128, 0);
+    --color-gold-1: rgb(255, 128, 0);
 }
 
 html {
@@ -46,7 +46,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-orange-1);
+    color: var(--color-gold-1);
 }
 
 header {
@@ -115,7 +115,7 @@ img.medium {
 }
 
 .rating span {
-    color: var(--color-orange-1);
+    color: var(--color-gold-1);
 }
 
 .price {
