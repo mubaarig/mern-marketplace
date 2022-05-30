@@ -7,7 +7,7 @@ const data = {
             image : "/images/pd1.jpg",
             price:  219.90 ,
             brand: "Padomi",
-            rating: 4.6,
+            rating: 2.6,
             numOfReviews: 12,
             description: "High quality product"
         },
@@ -18,7 +18,7 @@ const data = {
             image : "images/pd2.jpg",
             price:  329.90 ,
             brand: "Padomi",
-            rating: 4.3,
+            rating: 2.9,
             numOfReviews: 19,
             description: "High quality product"
         },
@@ -29,8 +29,8 @@ const data = {
             image : "images/pd3.webp",
             price:  329.90 ,
             brand: "Padomi",
-            rating: 4.3,
-            numOfReviews: 19,
+            rating: 0,
+            numOfReviews: 0,
             description: "High quality product"
         },
         {
