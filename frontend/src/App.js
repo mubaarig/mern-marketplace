@@ -9,13 +9,13 @@ function App() {
                     <a className="brand" href="index.html">UNION</a>
                 </div>
                 <div>
-                    <a href="cart.html">Cart</a>
-                    <a href="signin.html">Sign In</a>
+                    <a href="/cart">Cart</a>
+                    <a href="/signin">Sign In</a>
                 </div>
             </header>
             <main>
                 <div className="row center">
-                    {data.products.map((product) => (                        
+                    {data.products.map((product) => (
                         <div key={product.id} className="card">
                             <a href={`/product/${product.id}`}>
                                 <img
