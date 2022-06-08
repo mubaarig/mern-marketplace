@@ -1,9 +1,0 @@
-.rating span {
-    color: var(--color-gold-1);
-  }
-  
-  .rating .reviews{
-    display: inline;
-    color: var(--color-grey-1);
-    margin-left:0.4rem;
-  }
