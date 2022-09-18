@@ -1,0 +1,216 @@
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: icon-accounts;
+    src: url(https://konten.c24static.de/ga-vergleich/static/fonts/icon-accounts.eot?7s6i5f);
+    src: url(https://konten.c24static.de/ga-vergleich/static/fonts/icon-accounts.eot?7s6i5f#iefix) format("embedded-opentype"), url(https://konten.c24static.de/ga-vergleich/static/fonts/icon-accounts.ttf?7s6i5f) format("truetype"), url(https://konten.c24static.de/ga-vergleich/static/fonts/icon-accounts.woff?7s6i5f) format("woff"), url(https://konten.c24static.de/ga-vergleich/static/fonts/icon-accounts.svg?7s6i5f#icon-accounts) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: icon-accounts;
+    src: url(https://konten.c24static.de/ga-vergleich/static/fonts/icon-accounts.eot?7s6i5f);
+    src: url(https://konten.c24static.de/ga-vergleich/static/fonts/icon-accounts.eot?7s6i5f#iefix) format("embedded-opentype"), url(https://konten.c24static.de/ga-vergleich/static/fonts/icon-accounts.ttf?7s6i5f) format("truetype"), url(https://konten.c24static.de/ga-vergleich/static/fonts/icon-accounts.woff?7s6i5f) format("woff"), url(https://konten.c24static.de/ga-vergleich/static/fonts/icon-accounts.svg?7s6i5f#icon-accounts) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*! CSS Used from: Embedded */
+img {
+    border: 0;
+}
+
+/*! CSS Used from: Embedded */
+* {
+    box-sizing: border-box;
+}
+
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+div,
+h1,
+img,
+p,
+span,
+strong {
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+[data-overlay-opener] {
+    display: inline-block;
+}
+
+.certificate-list {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.certificate-list__item {
+    margin-left: 18px;
+}
+
+.certificate-list__item:first-child {
+    margin-left: 0;
+}
+
+.certificate-image {
+    width: auto;
+    height: 50px;
+    display: block;
+}
+
+.teaser {
+    display: -ms-flexbox;
+    display: flex;
+    background: 0 0;
+    position: relative;
+    padding: 15px 0;
+    border-bottom: 1px solid #dcdcdc;
+    width: 100%;
+    min-width: 994px;
+    max-width: 1280px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.teaser__content {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.teaser__content__headline {
+    color: #575757;
+    line-height: 120%;
+    margin: 0 0 5px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.teaser__content__text {
+    font-size: 13px;
+    color: #575757;
+    margin: 0;
+    max-width: 80%;
+}
+
+.teaser__reviews {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.teaser__ekomi {
+    margin-right: 18px;
+}
+
+.teaser-wrapper {
+    padding: 0 15px;
+}
+
+.ekomi {
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 10px;
+    line-height: 1.2;
+}
+
+.ekomi__logo {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-right: 10px;
+    height: 48px;
+    width: 48px;
+    background-image: url(https://finanzen.check24.de/ga-vergleich/img/phone/ekomi_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ekomi__text__item {
+    margin: 0 0 4px;
+}
+
+.ekomi__rating {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.ekomi__rating__stars {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    position: relative;
+    height: 12px;
+    line-height: 14px;
+    width: 71px;
+    margin-right: 5px;
+    margin-bottom: 4px;
+}
+
+.ekomi__rating__stars__row {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.ekomi__rating__stars__icon {
+    position: relative;
+    margin-right: 2px;
+}
+
+.ekomi__rating__stars__icon::before {
+    content: "";
+    line-height: 1;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: icon-accounts;
+    color: #dcdcdc;
+}
+
+.ekomi__rating__stars__icon--full::before {
+    color: #f6b800;
+}
+
+.ekomi__rating__stars__icon:last-child {
+    margin-right: 0;
+}
+
+.ekomi__rating__counter {
+    font-size: 12px;
+    margin: 0 0 4px;
+}
+
+.certificate-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.certificate-list__item {
+    margin-left: 18px;
+}
+
+.certificate-list__item:first-child {
+    margin-left: 0;
+}
+
+.certificate-image {
+    width: auto;
+    height: 50px;
+    display: block;
+}
